@@ -161,3 +161,9 @@ El monitor:
        - Basado en la memoria flash, que permite escribir o borrar múltiples posiciones de memoria en una misma operación de programación mediante impulsos eléctricos.
   
 
+--- 
+
+#### Backups
+
+
+[tipos de backups](https://blog.mdcloud.es/tipos-de-copias-de-seguridad-como-elegir-el-adecuado/)
