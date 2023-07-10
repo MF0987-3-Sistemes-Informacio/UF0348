@@ -62,8 +62,28 @@ Copias automatizadas de todos los ficheros.
 
 Actividad: realización de backups en MV:
 1. Con el sistema propio de Windows
-2. Con perfect-backup
-3. En Linux Lite
+
+  Pasos:
+  a. Añadir un nuevo disco a la Maquina Virtual
+  b. Dentro de Windows (MV) y usando la herramienta de particiones:
+      - Inicializar el disco
+      - Particionar, formatear y asignarle una letra al disco
+  c. Usando la utilidad de Backup settings de Windows:
+      - Añadir el disco de backup
+      - Confgurar el backup (botón more options) para que:
+         - Haga un backup diario
+         - Haga backup de la unidad D: de Datos
+         - Excluya una carpeta llamada "Temporales" que habréis creado
+antes en la unidad D de datos.
+         - Os descargáis algún fichero de Internet en Downloads.
+         - Miráis el tamaño que tenga la unidad de Backup ANTES de hacer el backup.
+         - Hacéis el backup (botón Backup Ahora)
+         - Mirad el tamaño de la unidad de backup DESPUÉS del backup y comparáis.
+
+
+
+1. Con perfect-backup
+2. En Linux Lite
 
 - Teoría Arquitectura
 
