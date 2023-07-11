@@ -63,7 +63,7 @@ Copias automatizadas de todos los ficheros.
 Actividad: realización de backups en MV:
 1. Con el sistema propio de Windows
 
-  Pasos:
+  Pasos:  
   a. Añadir un nuevo disco a la Maquina Virtual  
   b. Dentro de Windows (MV) y usando la herramienta de particiones:   
       - Inicializar el disco  
@@ -86,9 +86,38 @@ Actividad: realización de backups en MV:
 
 - Teoría Arquitectura
 
+### Sesión 11J
+
+Enlaces vistos en clase:
+
+https://softwarekeep.com/blog/ssd-vs-hdd-difference
+
+https://concepto.de/espectro-electromagnetico/
+
+https://www.notebookcheck.net/PWM-Ranking-Notebooks-Smartphones-and-Tablets-with-PWM.163979.0.html
+
+
+
 - Software: 
   - Utilidades Windows: 7zip, ccleaner, notepad++, acrobat
   - Multimedia: VLC, XnView
+
+Actividad:
+
+1- Descargar el 7zip en formato exe y msi
+2- Activar las extensiones de ficheros en el navegador de ficheros
+de Windows
+3- Desactivar el UAC
+4- Instalar el 7-zip
+5- Empaquetar y comprimir, usando 7zip, todos los
+ficheros que tengais en Downloads
+6- Moveis el fichero 7zip (o zip) creado en el paso
+anterior, a la unidad F: de backup
+7- (En la unidad de backup) Extaer los
+contenidos del fichero 7zip, y comprobáis que
+son los mismos contenidos que los originales.
+
+
 - Configuració Windows: 
   - Icones escriptori
   - Extensió fitxers (-> Magic Numbers)
