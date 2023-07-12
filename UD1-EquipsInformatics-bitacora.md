@@ -99,10 +99,10 @@ https://www.notebookcheck.net/PWM-Ranking-Notebooks-Smartphones-and-Tablets-with
 
 
 - Software: 
-  - Utilidades Windows: 7zip, ccleaner, notepad++, acrobat
+  - Utilidades Windows: 7zip, cpu-z, notepad++,  acrobat reader, ccleaner
   - Multimedia: VLC, XnView
 
-Actividad:
+Actividad 1:
 
 1- Descargar el 7zip en formato exe y msi
 2- Activar las extensiones de ficheros en el navegador de ficheros
@@ -117,10 +117,29 @@ anterior, a la unidad F: de backup
 contenidos del fichero 7zip, y comprobáis que
 son los mismos contenidos que los originales.
 
+Actividad 2:
+
+1- Descargar e instalar Notepad++
+2- Crear un fichero de texto y editarlo con Notepad++
+3- Configurar Windows para que, por defecto, use
+Notepad++ en lugar del Notepad de Windows.
+4- Abrir el documento creado en el paso 2, y con
+Notepad++, haced que el documento sea
+compatible con sistemas Linux.
+
+Actividad 3:
+1. Descargar e instalar el Acrobat Reader (en la MV de Windows)
+2. Configurar Windows para que abra los documentos PDF con Acrobat Reader por defecto.
+
+Actividad 4:
+1. Descargar e instalar el ccleaner (en MV y en amfitrión). Instalación personalizada: desactivar Scaneo inteligente de cookies.
+2. Hacer una limpieza del ordenador (Windows de MV y amfitrión)-
+   
 
 - Configuració Windows: 
   - Icones escriptori
   - Extensió fitxers (-> Magic Numbers)
+  - Desactivar UAC
 
 - Teoría redes
   - TCP / UDP / IP
