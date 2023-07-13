@@ -148,6 +148,10 @@ Actividad 4:
   - Wifi vs rj45 cat 5,6,7,8 (ethernet)
   - ADSL / Fibra òptica / Connexió de backup
   
+https://www.bonaval.com/kb/sistemas/redes/modelo-osi
+
+https://www.profesionalreview.com/2018/11/22/modelo-osi/
+
 - Manteniment
   - Registre
   - Documentació d'avaries
@@ -156,11 +160,11 @@ Actividad 4:
 Si tenemos en cuenta el uso del equipo, se puede confeccionar un cuadro con las siguientes periodicidades:
 
 ```
-Uso					Periodicidad
----					---
-Muy poco uso		Anual	
+Uso					      Periodicidad
+---					      ---
+Muy poco uso		  Anual	
 Uso esporádico		Semestral
-Uso intensivo		Trimestral/Bimestral
+Uso intensivo		  Trimestral/Bimestral
 Uso muy intensivo	Mensual/Bimestral
 ```
 
@@ -169,6 +173,8 @@ Uso muy intensivo	Mensual/Bimestral
   - VPN
   
 - Seguretat: contrasenyes segures
+
+
 
 [How secure is my password](https://www.security.org/how-secure-is-my-password/)
   
@@ -179,4 +185,54 @@ Uso muy intensivo	Mensual/Bimestral
   - ssh
 
 #### Activitat: servidor FTP a Linux Lite i Filezilla a Windows.
+
+1. En Linux Lite (MV) abris un Terminal
+2. Ejecutais:
+   - sudo apt update
+  (contrasenya és usuari)
+  - sudo apt install proftpd
+  (le confirmais con S) 
   
+  > ``sudo apt install proftpd`` os va a instalar el servidor FTP
+  
+  - sudo nano /etc/proftpd/proftpd.conf
+
+Hay que descomentar (quitar #) la opción:
+
+DefaultRoot ~
+
+> DefaultRoot indica la carpeta RAIZ por defecto en la que
+> un usuario que se conecte al servidor FTP va a
+> poder acceder.
+
+  - Arrancar el proftpd con el comando siguiente:
+  sudo systemctl start proftpd
+
+  - Comprobad que está arrancado sin problemas:
+  sudo systemctl status proftpd
+  (para salir de la información que te da
+  este comando, pulsad la tecla q).
+
+  - Para configurar arranque automático del
+servidor ftp:
+  sudo systemctl enable proftpd
+
+3. Vamos al Windows Amfitrión:
+   - Nos descargamos e instalamos un programa
+  llamado FileZilla.
+  > El FileZilla es un programa cliente para
+  conectarse a servidores FTP.
+
+4. Usando el FileZilla, os conectais al 
+   servidor FTP de Linux con la siguiente 
+   información:
+
+   * IP del servidor FPT: meteis la IP del Linux
+   * Puerto: 21
+   * Nombre de usuario y contraseña: usuari/usuari
+  
+> Para averiguar la IP del Linux, en el terminal 
+> de Linux podeis ejecutar:
+  ip addr
+  y buscais la IP de la tarjeta de red llamada
+  enp0s3 y donde pone inet, por ejemplo 192.168.1.40
